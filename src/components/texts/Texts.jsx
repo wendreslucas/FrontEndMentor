@@ -15,7 +15,7 @@ const Titulo = styled.h1`
   line-height: 2rem;
 `
 
-const Paragrafo = styled.a`
+const Paragrafo = styled.p`
   margin: 1rem 0 2rem 0;
   color: var(--grayish_blue);
   text-align: center;
@@ -29,7 +29,7 @@ const Texts = () => {
         Improve your front-end <br /> skills by building projects
       </Titulo>
 
-      <Paragrafo className="Paragrafo">
+      <Paragrafo>
         Scan the QR code to visit Frontend <br />
         Mentor and take your coding skills to <br />
         the next level

@@ -3,13 +3,11 @@ import Image from 'next/image'
 import styled from 'styled-components'
 
 const CardImagem = styled.div`
-  .conteudo {
-    position: relative;
-    height: 22rem;
-    width: 22rem;
-  }
+  position: relative;
+  height: 22rem;
+  width: 22rem;
 
-  .img {
+  .Imagem {
     border-radius: 1rem;
   }
 `
@@ -17,15 +15,13 @@ const CardImagem = styled.div`
 const ImagemQr = () => {
   return (
     <CardImagem>
-      <div className="conteudo">
-        <Image
-          className="img"
-          src="/image-qr-code.png"
-          alt="Imagem Qr Code"
-          width={350}
-          height={350}
-        />
-      </div>
+      <Image
+        className="Imagem"
+        alt="Imagem Qr Code"
+        layout="fill"
+        objectFit="cover"
+        src="/image-qr-code.png"
+      />
     </CardImagem>
   )
 }

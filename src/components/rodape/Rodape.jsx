@@ -3,14 +3,14 @@ import styled from 'styled-components'
 
 const Footer = styled.footer`
   display: flex;
-  flex: 1;
-  padding: 1rem 0;
-  justify-content: center;
   align-items: center;
-  font-size: 12px;
+  justify-content: center;
+  margin-top: 10px;
 `
 
 const TextoRodape = styled.a`
+  font-weight: 700;
+  text-decoration: none;
   &:hover {
     color: var(--dark_blue);
   }
