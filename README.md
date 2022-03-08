@@ -14,7 +14,7 @@ Projetos do FrontEndMentor em construção.
 Link do frontend Mentor: https://www.frontendmentor.io/
 <br/>
 
-## 👩‍💻 Tecnologias
+## 💻 Tecnologias
 
 - NextJS
 - ReactJS
