@@ -11,7 +11,6 @@ const Footer = styled.footer`
 `
 
 const TextoRodape = styled.a`
-  color: var(--white);
   &:hover {
     color: var(--dark_blue);
   }
@@ -23,7 +22,7 @@ const Rodape = () => {
       <TextoRodape
         target="_blank"
         href="https://www.linkedin.com/in/wendres-lucas/"
-        rel="noreferrer"
+        rel="linkedin"
       >
         Coded By Wendres Lucas
       </TextoRodape>

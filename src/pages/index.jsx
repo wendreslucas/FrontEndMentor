@@ -1,11 +1,12 @@
-import Main from '../components/main/Main'
+import Container from '../components/container/Container'
 import Rodape from '../components/Rodape/Rodape'
 
-export default function Home() {
+function Home() {
   return (
     <>
-      <Main />
+      <Container />
       <Rodape />
     </>
   )
 }
+export default Home

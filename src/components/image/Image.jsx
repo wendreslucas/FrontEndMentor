@@ -1,19 +1,32 @@
 import React from 'react'
-import styled from 'styled-components'
 import Image from 'next/image'
+import styled from 'styled-components'
 
-const Container = styled.div``
+const CardImagem = styled.div`
+  .conteudo {
+    position: relative;
+    height: 22rem;
+    width: 22rem;
+  }
+
+  .img {
+    border-radius: 1rem;
+  }
+`
 
 const ImagemQr = () => {
   return (
-    <Container>
-      <Image
-        src="/image-qr-code.png"
-        alt="Imagem Qr Code"
-        width={400}
-        height={400}
-      />
-    </Container>
+    <CardImagem>
+      <div className="conteudo">
+        <Image
+          className="img"
+          src="/image-qr-code.png"
+          alt="Imagem Qr Code"
+          width={350}
+          height={350}
+        />
+      </div>
+    </CardImagem>
   )
 }
 
