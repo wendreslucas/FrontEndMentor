@@ -16,7 +16,7 @@ const Principal = styled.div`
   width: 24rem;
 `
 
-const Main = () => {
+const Card = () => {
   return (
     <>
       <Principal>
@@ -27,4 +27,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Card

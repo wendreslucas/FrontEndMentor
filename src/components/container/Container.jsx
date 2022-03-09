@@ -1,21 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
-import Main from '../main/Main'
+import Card from '../card/Card'
 
-const Contain = styled.div`
+const Contain = styled.main`
   align-items: center;
   background: var(--light_gray);
   display: flex;
   height: 96vh;
   justify-content: center;
-  padding: 1rem;
   width: 100%;
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 `
 
 const Container = () => {
   return (
     <Contain>
-      <Main />
+      <Card />
     </Contain>
   )
 }
