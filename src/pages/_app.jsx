@@ -11,6 +11,10 @@ export const GlobalStyle = createGlobalStyle`
   --dark_blue: hsl(218, 44%, 22%);
   @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
   box-sizing: border-box;
+}
+
+* {
+
   font-family: 'Outfit', sans-serif;
   margin: 0;
   padding: 0;
