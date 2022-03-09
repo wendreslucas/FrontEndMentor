@@ -1,6 +1,5 @@
 import React from 'react'
 import Home from './index'
-import Styled from 'styled-components'
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
