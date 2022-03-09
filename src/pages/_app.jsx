@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components'
 import { GlobalStyle } from '../components/GlobalStyle'
 import SwitcherTema from '../components/switcherTema/SwitcherTema'
 import { temaClaro, temaEscuro } from '../components/ui/Temas'
-import { BtnTema } from '../components/ui/ui'
+import { BtnTema } from '../components/ui/Ui'
 import Home from './index'
 
 function MyApp() {
