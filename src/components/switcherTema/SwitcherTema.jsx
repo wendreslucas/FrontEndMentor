@@ -1,11 +1,21 @@
 import React from 'react'
-import ThemeOn from '../../../public/themeOn.svg'
-import ThemeOff from '../../../public/themeOff.svg'
-import { Icone } from '../ui/ui'
+import styled from 'styled-components'
+import { MdDarkMode } from 'react-icons/md'
 
-const claro = <Icone src={ThemeOn} alt="tema claro" />
-const escuro = <Icone src={ThemeOff} alt="tema escuro" />
+const BotaoTema = styled.a`
+  cursor: pointer;
+`
 
-// eslint-disable-next-line import/no-anonymous-default-export
-// eslint-disable-next-line react/display-name
-export default ({ tema }) => (tema ? escuro : claro)
+const TEMA = (
+  <BotaoTema>
+    <MdDarkMode size={32} />
+  </BotaoTema>
+)
+const claro = TEMA
+const escuro = TEMA
+
+const Tema = () => {
+  return Tema ? escuro : claro
+}
+
+export default Tema

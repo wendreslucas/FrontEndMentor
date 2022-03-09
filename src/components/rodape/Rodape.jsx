@@ -1,18 +1,24 @@
 import React from 'react'
 import styled from 'styled-components'
+import { textoRodape, conteudoEscuro } from '../ui/Variaveis'
 
 const Footer = styled.footer`
   display: flex;
   align-items: center;
+  background-color: ${({ theme }) => theme.body};
   justify-content: center;
-  margin-top: 10px;
+
+  text-decoration: none;
+  /* margin-top: 10px; */
 `
 
 const TextoRodape = styled.a`
   font-weight: 700;
   text-decoration: none;
+  color: ${textoRodape};
+
   &:hover {
-    color: var(--dark_blue);
+    color: ${conteudoEscuro};
   }
 `
 

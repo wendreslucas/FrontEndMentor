@@ -16,10 +16,10 @@ function MyApp() {
   return (
     <ThemeProvider theme={tema ? temaClaro : temaEscuro}>
       <GlobalStyle />
-      <BtnTema onClick={toggleTema}>
-        <SwitcherTema tema={tema} />
-      </BtnTema>
       <Home />
+      <BtnTema onClick={toggleTema}>
+        <SwitcherTema />
+      </BtnTema>
     </ThemeProvider>
   )
 }

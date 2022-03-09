@@ -4,9 +4,9 @@ import Card from '../card/Card'
 
 const Contain = styled.main`
   align-items: center;
-  background: var(--light_gray);
+  background-color: ${({ theme }) => theme.body};
   display: flex;
-  height: 96vh;
+  height: 97.5vh;
   justify-content: center;
   width: 100%;
   @media (max-width: 800px) {

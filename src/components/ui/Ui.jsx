@@ -1,15 +1,7 @@
 import styled from 'styled-components'
 
-export const Icone = styled.img`
-  height: 25px;
-  width: 25px;
-`
-
-export const IconeTema = styled(Icone)`
-  filter: ${({ theme }) => theme.filter};
-`
-
 export const BtnTema = styled.button`
+  border: 1px solid;
   position: absolute;
   top: 4vh;
   right: 20px;

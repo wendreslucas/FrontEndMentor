@@ -1,15 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
-:root {
-  --black: #000000;
-  --white: hsl(0, 0%, 100%);
-  --light_gray: hsl(212, 45%, 89%);
-  --grayish_blue: hsl(220, 15%, 55%);
-  --dark_blue: hsl(218, 44%, 22%);
- 
-}
-
 * {
 
   font-family: 'Outfit', sans-serif;
@@ -24,5 +15,9 @@ export const GlobalStyle = createGlobalStyle`
   @media (max-width: 720px) {
     font-size: 87.5%;
   }
+
+  body {  
+  -webkit-font-smoothing: antialiased;
+}
 }
 `

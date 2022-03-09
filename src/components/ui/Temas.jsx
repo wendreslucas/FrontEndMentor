@@ -5,7 +5,7 @@ import {
   fundoEscuro,
   conteudoEscuro,
   textoFundoEscuro
-} from './Variaveis.jsx'
+} from './Variaveis'
 
 export const temaClaro = {
   body: fundoClaro,
