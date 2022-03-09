@@ -1,7 +1,4 @@
-<p align="left">
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>
-</p>
+
 
 ## 💻 Projeto
 
@@ -23,4 +20,4 @@ Além do design padrão, adicionei o tema dark.
 - ReactJS
 - Styled Components
 
-# FrontEndMentor
+
